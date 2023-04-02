@@ -1,0 +1,88 @@
+.logo {
+    position: relative;
+    height: 1700px;
+    &__divider{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 61px;
+        &-leftline {
+            align-items: center;
+            width: 570px;
+            height: 1px;
+            border: 2px solid #000000;
+            background: #000000;
+        }
+        &-text {
+            color: #363636;
+            font-family: 'Unbounded';
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 45px;
+            margin: 0 75px 0 75px;
+            span{
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke: 1px #363636;
+            }
+        }
+        &-rightline {
+            width: 570px;
+            height: 1px;
+            border: 2px solid #000000;
+            background: #000000;
+        }
+    }
+    &__smalltitle {
+        display: flex;
+        justify-content: center;
+        font-family: 'Michroma';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 191.69%;
+        letter-spacing: 0.015em;
+        text-decoration-line: underline;
+        color: #000000;
+    }
+    &__sketches {
+        display: flex;
+        justify-content: center;
+        gap: 46px;
+        margin:68px 0 105px 0;
+        img {
+            width: 623px;
+            height: 386px;
+        }
+    }
+    &__blob {
+        position: absolute;
+        display: inline-block;
+        right: 10px;
+        top: 460px;
+        z-index: -2;
+    }
+    &__wrapper {
+        position: relative;
+
+        &-logotype {
+            position: absolute;
+            top: -20px;
+            left: 50px;
+            width: 650px;
+            height: 650px;      
+        }
+        &-coffeebag {
+            position: absolute;
+            left: 410px;
+            width: 869px;
+            height: 904px;  
+            top: 52px;
+        }
+    }
+    &__blobdown {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+   
+
+}   

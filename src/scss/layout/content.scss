@@ -1,0 +1,46 @@
+.content {
+    min-height:100vh;
+    background: url('../images/bg/bg3.png') center center/cover no-repeat;
+    height: 900px;
+    &__title {
+        font-family: 'Unbounded';
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 79px;
+        text-transform: uppercase;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1px #FFFFFF;
+        padding: 116px 0 20px 250px;
+    }
+    &__links {
+        width: 689px;
+        height: 384px;
+        padding-left: 200px;
+        &-link{
+            white-space: nowrap;
+            font-family: 'Michroma';
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 191.69%;
+            color: #FFFFFF;
+            position: relative;
+            margin-bottom: 36px;
+            &::before {
+                content: '';
+                position: absolute;
+                width: 52px;
+                height: 52px;
+                background: #979E96;
+                border-radius: 100%;
+                top: 12px;
+                left: -74px;
+            }
+        }
+    
+    &-item {
+        display: flex;
+        flex-direction: row;
+    }
+}
+    
+}

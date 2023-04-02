@@ -1,0 +1,17 @@
+.circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background: #979E96;
+        border: 2px solid #696969; 
+    &_none {
+        background: none;
+    }
+    &_big {
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        border: none;
+
+    }
+}

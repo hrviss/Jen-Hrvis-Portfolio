@@ -1,0 +1,65 @@
+.clothes {
+    height: 1900px;
+    justify-content: center;
+    background: url('../images/bg/bg5.png') center center/cover no-repeat;
+    &__top {
+        width: 100%;
+        padding: 50px 180px 0 110px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+            &-line {
+                margin-top: 10px;
+                display: inline-block;
+                border: 1px solid #FFFFFF;
+                width: 935px;
+                height: 1px;
+                color: #FFFFFF;
+                align-items: center;
+                justify-content: center;
+           
+            }
+            &-text {
+                white-space: nowrap;
+                font-family: 'Michroma';
+                font-weight: 400;
+                font-size: 20px;
+                color: #FFFFFF;
+                align-items: center;
+                margin-left: 30px;
+              }
+    }
+
+    &__wrapper {
+        position: relative;
+        margin-top: 100px;
+        &-photo1 {
+            height: 700px;
+            width: 526px;
+            position: absolute;
+            top: 0;
+            left: 85px;
+            z-index: 1;
+        }
+        &-tshirt1 {
+            position: absolute;
+            top: -170px;
+            right: -40px;
+            transform: scale(0.91);
+            z-index: 0;
+        }
+        &-photo2 {
+            position: absolute;
+            top: 875px;
+            right: 70px;
+            height: 692px;
+            width: 536px;
+        }
+        &-tshirt2 {
+            position: absolute;
+            top: 700px;
+            left: -45px;
+            transform: scale(0.9);
+        }
+    }
+}

@@ -1,3 +1,6 @@
+body{
+  background-color:#cec7bd;
+}
 .container1 {
 	width: 100%;
 	display: flex;
@@ -23,8 +26,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-
-    	&_line {
+    	&-line {
 			margin-top: 10px;
 			display: inline-block;
 			border: 1px solid #FFFFFF;
@@ -35,7 +37,7 @@
 			justify-content: center;
        
     	}
-    	&_name {
+    	&-text {
 			white-space: nowrap;
 			font-family: 'Michroma';
 			font-weight: 400;

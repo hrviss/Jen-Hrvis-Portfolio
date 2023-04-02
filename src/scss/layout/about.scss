@@ -1,7 +1,7 @@
 .about {
-    padding: 75px 70px 20px 125px;
+    padding: 0 70px 0 125px;
     // min-height: 100vh;
-    height: 900px;
+    height: fit-content;
     &__container {
         display: flex;
         width: 1250px;

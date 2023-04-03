@@ -1,11 +1,11 @@
 .illustrations {
     position: relative;
-    background: url('../images/bg/bg7') center center/cover no-repeat;
-    height: 100vh;
+    background: url('../images/bg/bg7.png') center center/100% 100% no-repeat;
+    height: 2092px;
 
     &__top {
         width: 100%;
-        padding: 70px 120px 0 360px;
+        padding: 30px 152px 0 170px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -29,5 +29,21 @@
                 align-items: center;
                 margin-left: 30px;
               }
+      }
+      &__first {
+        position: absolute;
+        top: 4%;
+      }
+      &__second {
+        position: absolute;
+        bottom: 15%;
+        transform: scale(0.95);
+      }
+      &__third {
+        position: absolute;
+        right: 0;
+        top: 25%;
+        // transform: scale(0.95);
+
       }
 }

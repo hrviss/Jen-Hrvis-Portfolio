@@ -1,6 +1,6 @@
 .ux {
     position: relative;
-    height: 1800px;
+    height: 2100px;
     &__top {
         width: 100%;
         padding: 0 170px 0 140px;
@@ -94,8 +94,12 @@
     &__phones {
         transform: scale(0.95);
         position: absolute;
-        top: 920px;
+        bottom: -2.5%;
         left: -50px;
         
+    }
+    &__blobdown {
+        position: absolute;
+        bottom: 0;
     }
 }

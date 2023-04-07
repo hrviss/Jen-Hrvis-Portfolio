@@ -3,10 +3,11 @@
     height: 900px;
     &__blob {
         position: absolute;
-        top: -22%;
+        top: -9%;
         left: 0;
     }
     &__top {
+        margin-top: -140px;
         display: flex;
         flex-direction: row;
         padding: 40px 110px 0 180px;

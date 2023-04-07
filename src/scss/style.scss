@@ -31,6 +31,7 @@
 @import 'config/common';
 
 // Подключение стилей отдельных блоков и секций =======================================================================================================================
+
 @import 'layout/header';
 @import 'layout/circle.scss';
 @import 'layout/about.scss';
@@ -41,4 +42,5 @@
 @import 'layout/ux.scss';
 @import 'layout/illustrations.scss';
 @import 'layout/end.scss';
+@import 'layout/media.scss';
 @import 'layout/footer';

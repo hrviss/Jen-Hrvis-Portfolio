@@ -2,6 +2,7 @@
     position: relative;
     height: 2100px;
     &__top {
+        margin-top: -90px;
         width: 100%;
         padding: 0 170px 0 140px;
         display: flex;
@@ -33,10 +34,10 @@
     &__blob {
         position: absolute;
         right: 0;
-        top: 95px;
+        top: 1.2%;
     }
     &__header {
-        margin: 105px 145px 0 0;
+        margin: 110px 145px 0 0;
         align-items: right;
         float: right;
 
@@ -92,10 +93,10 @@
         }
     }
     &__phones {
-        transform: scale(0.95);
+        transform: scale(1);
         position: absolute;
         bottom: -2.5%;
-        left: -50px;
+        left: 0;
         
     }
     &__blobdown {

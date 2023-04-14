@@ -1,10 +1,12 @@
 // Firefox
 * {
-  scrollbar-width: rem(8);
+  // scrollbar-width: rem(8);
+  scrollbar-width: 0;
   scrollbar-color: $firstAccentColor #d6d6d6;
   // Chrome, Edge, and Safari
   &::-webkit-scrollbar {
-    width: rem(8);
+    // width: rem(8);
+    width: 0;
     background-color: $whiteColor;
   }
   &::-webkit-scrollbar-track {

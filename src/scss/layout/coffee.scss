@@ -56,8 +56,8 @@
         &-title {
             display: flex;
             justify-content: flex-end;
-            font-family: 'Unbounded';
-            font-weight: 700;
+            font-family: 'Dela Gothic One';
+            font-weight: 400;
             font-size: 36px;
             line-height: 45px;
             color: #363636;
@@ -67,6 +67,7 @@
             }
         }
         &-text {
+            margin-top: 22px;
             text-align: right;
             font-family: 'Michroma';
             font-weight: 400;

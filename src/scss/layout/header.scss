@@ -50,49 +50,46 @@ body{
   }
  
   &__maintext {
+  margin: 0 auto;
 	align-items: center;
 	margin-top: 160px;
 	width: 950px;
-	align-items: center;
+  justify-content: center;
     
     &_subheader {
-	  display: block;
-      font-family: 'Unbounded';
+      font-family: 'Michroma';
       font-weight: 400;
       font-size: 40px;
-      line-height: 50px;
       color: #FFFFFF;
       -webkit-text-fill-color: transparent;
-      -webkit-text-stroke: 1px #FFFFFF;
-	  justify-content: flex-start;
+      -webkit-text-stroke: 0.5px #FFFFFF;
+	  // justify-content: flex-start;
       
     }
     &_header {
-      display: block;
       justify-content: center;
-      font-family: 'DelaGothicOne';
-      // font-weight: 700;
-      font-size: 128px;
+      font-family: 'Dela Gothic One';
+      font-weight: 400;
+      font-size: 110px;
       color: #FFFFFF;
       text-transform: uppercase;
+      text-align: left;
       span {
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 1px  #FFFFFF;
       }
     }
     &_underline {
-      display: block;
-      margin: 0 auto;
-	    padding-left: 20px;
+      display: flex;
+      justify-content: center;
+      margin-left: -90px;
+      transform: scale(0.85);
 	
-    }
-    &_img {
-      width: 500px !important;
     }
   }
   &__blobdown {
     position: absolute;
-    top: calc(120vh - 55vh);
+    top: calc(120vh - 75vh);
     right: -10px;
 	transform: scale(0.9);
 

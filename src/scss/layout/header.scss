@@ -11,51 +11,43 @@ body{
 .promo {
   background: url('../images/bg/bg1.png') center center/100% 100% no-repeat;
   width: 100%;
-  height: 120vh;
+  height: 900px;
   position: relative;
-  &__blob{
-	display: inline-block;
-	position: absolute;
-	top: -15px;
-	left: -15px;
-	transform: scale(0.9);
-	
-  }
+    &__blob {
+    position: absolute;
+    top: 0;
+    left: 0;
+   }
+   &__blobdown {
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+   }
   &__top {
 	width: 100%;
-	padding: 70px 120px 0 360px;
+	padding: 47px 69px 0 360px;
 	display: flex;
-	flex-direction: row;
+  align-items: center;
 	justify-content: space-between;
-    	&-line {
-			margin-top: 10px;
-			display: inline-block;
-			border: 1px solid #FFFFFF;
-			width: 100%;
-			height: 1px;
-			color: #FFFFFF;
-			align-items: center;
-			justify-content: center;
-       
-    	}
-    	&-text {
-			white-space: nowrap;
-			font-family: 'Michroma';
-			font-weight: 400;
-			font-size: 20px;
-			color: #FFFFFF;
-			align-items: center;
-			margin-left: 30px;
-      	}
+    &-line {
+      border: 1px solid #FFFFFF;
+      border-bottom: none;
+      width: 100%;
+      height: 1px;
+      color: #FFFFFF;
+    }
+    &-text {
+      margin-left: 31px;
+      color: #FFFFFF;
+      white-space: nowrap;
+      font-family: 'Michroma';
+      font-weight: 400;
+      font-size: 20px;
+    }
   }
- 
   &__maintext {
-  margin: 0 auto;
-	align-items: center;
-	margin-top: 160px;
-	width: 950px;
-  justify-content: center;
-    
+    margin: 0 auto;
+    margin-top: 199px;
     &_subheader {
       font-family: 'Michroma';
       font-weight: 400;
@@ -63,17 +55,13 @@ body{
       color: #FFFFFF;
       -webkit-text-fill-color: transparent;
       -webkit-text-stroke: 0.5px #FFFFFF;
-	  // justify-content: flex-start;
-      
     }
     &_header {
-      justify-content: center;
       font-family: 'Dela Gothic One';
       font-weight: 400;
-      font-size: 110px;
+      font-size: 128px;
       color: #FFFFFF;
       text-transform: uppercase;
-      text-align: left;
       span {
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 1px  #FFFFFF;
@@ -82,17 +70,7 @@ body{
     &_underline {
       display: flex;
       justify-content: center;
-      margin-left: -90px;
-      transform: scale(0.85);
-	
     }
-  }
-  &__blobdown {
-    position: absolute;
-    top: calc(120vh - 75vh);
-    right: -10px;
-	transform: scale(0.9);
-
   }
 }
 

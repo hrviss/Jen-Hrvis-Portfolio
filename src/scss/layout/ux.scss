@@ -2,107 +2,110 @@
     position: relative;
     height: 2100px;
     &__top {
-        margin-top: -90px;
+      width: 100%;
+      padding: 40px 170px 0 140px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      &-line {
+        margin-top: 10px;
+        display: inline-block;
+        border: 1px solid #000000;
         width: 100%;
-        padding: 0 170px 0 140px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        height: 1px;
+        color: #000000;
         align-items: center;
-        &-line {
-            margin-top: 10px;
-            display: inline-block;
-            border: 1px solid #000000;
-            width: 100%;
-            height: 1px;
-            color: #000000;
-            align-items: center;
-            justify-content: center;
-    
-        }
-        &-text {
-            white-space: nowrap;
-            font-family: 'Michroma';
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 191.69%;
-            letter-spacing: 0.015em;
-            color: #000000;
-            margin-left: 21px;
-        }
+        justify-content: center;
+  
+      }
+      &-text {
+        white-space: nowrap;
+        font-family: 'Michroma';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 191.69%;
+        letter-spacing: 0.015em;
+        color: #000000;
+        margin-left: 21px;
+      }
     }
     &__blob {
-        position: absolute;
-        right: 0;
-        top: 1.2%;
+      position: absolute;
+      right: 110px;
+      top: 200px;
+      transform: scale(1.5);
     }
     &__header {
-        margin: 110px 145px 0 0;
-        align-items: right;
-        float: right;
+      margin: 190px 200px 0 0;
+      align-items: right;
+      float: right;
 
-        &-title {
-            font-family: 'Dela Gothic One';
-            font-weight: 400;
-            font-size: 40px;
-            line-height: 50px;
-            color: #363636
-        }
-        &-subtitle{
-            font-family: 'Michroma';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 24px;
-            line-height: 30px;
-            text-align: right;
-            color: #363636;
-        }
+      &-title {
+        font-family: 'Dela Gothic One';
+        font-weight: 400;
+        font-size: 58px;
+        line-height: 60px;
+        color: #363636
+      }
+      &-subtitle{
+        font-family: 'Michroma';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 50px;
+        text-align: right;
+        color: #363636;
+      }
     }
     &__page {
-        margin: 35px 0 0 130px;
+        margin: 207px 0 0 225px;
         width: 538px;
         height: 769px;
+        transform: scale(1.4);
     }
     &__laptop {
         position: absolute;
-        top: 450px;
-        left: 370px;
+        top: 560px;
+        left: 517px;
+        transform: scale(1.3);
     }
     &__descr {
-        margin: 240px 0 0 150px;
+        margin: 445px 0 0 222px;
         &-title {
-            font-family: 'Dela Gothic One';
-            font-weight: 400;
-            font-size: 36px;
-            line-height: 45px;
-            color: #363636;
-            span {
-                -webkit-text-fill-color: transparent;
-                -webkit-text-stroke: 1px  #363636;;
-            }
+          font-family: 'Dela Gothic One';
+          font-weight: 400;
+          font-size: 52px;
+          line-height: 52px;  
+          color: #363636;
+          span {
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: 1px  #363636;;
+          }
         }
         &-text {
-            margin-top: 33px;
-            width: 569px;
-            font-family: 'Michroma';
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 191.69%;
-            letter-spacing: 0.015em;
-            color: #000000;
+          margin-top: 33px;
+          width: 45%;
+          font-family: 'Michroma';
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 191.69%;
+          letter-spacing: 0.015em;
+          color: #000000;
         }
     }
     &__phones {
-        transform: scale(1);
-        position: absolute;
-        bottom: -2.5%;
-        left: 0;
-        z-index: -1;
-        
+      position: absolute;
+      bottom: -622px;
+      right: -11px;
+      object-fit: contain;
+      width: 90%;
     }
     &__blobdown {
-        position: absolute;
-        bottom: 0;
-        z-index: -2;
+      position: absolute;
+      bottom: -472px;
+      left: 115px;
+      z-index: -2;
+      transform: scale(1.6);
     }
 }

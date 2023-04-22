@@ -1,11 +1,12 @@
 body{
   background: url('../images/bg/gray-paper-bg.png') center center/100% 100%;
+  overflow-x: hidden;
 }
 .container1 {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-
+  padding-left: 43px;
 }	
 
 .promo {

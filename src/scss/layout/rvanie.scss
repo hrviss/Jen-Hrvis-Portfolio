@@ -1,17 +1,19 @@
 .rvanie {
-    background: url('../images/rvanie.png') center center/100% 100% no-repeat;
-    height: 250px;
-    margin-top: -100px;
-    z-index: 2;
-    margin-bottom: -100px;
+  background: url('../images/rvanie.png') center center/100% 100% no-repeat;
+  height: 250px;
+  margin-top: -100px;
+  z-index: 2;
+  margin-bottom: -100px;
 }
 .rvaniewhite {
-    // background: url('../images/whitervanie.png') center center/100% 100% no-repeat;
-    height: 210px;
-    margin-top: -100px;
-    z-index: 100;
-    margin-bottom: -120px;
-    img {
-        width: 100%;
-    }
+  // background: url('../images/whitervanie.png') center center/100% 100% no-repeat;
+  position: absolute;
+  width: 100%;
+  bottom: -155px;
+  left: 0;
+  // z-index: 4;
+
+  img {
+    width: 100%;
+  }
 }

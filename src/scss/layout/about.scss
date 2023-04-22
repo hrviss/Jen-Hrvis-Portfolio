@@ -3,12 +3,12 @@
   display: flex;
   justify-content: center;
   &__container {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     width: 1250px;
-    height: 586px;
-    justify-content: center; 
-    margin-bottom: 20px; 
+    height: 630px;
+    justify-content: center;
+    margin-bottom: 20px;
   }
   &__wrapper {
     margin-left: 45px;
@@ -23,7 +23,7 @@
     &-descr{
       font-family: 'Michroma';
       font-weight: 400;
-      font-size: 16px;
+      font-size: 18px;
       color: #000000;
       width: 665px;
       height: 225px;
@@ -43,18 +43,18 @@
     display: flex;
     width: 603px;
     height: 230px;
-    margin-top: 20px;
+    margin-top: 85px;
   }
   &__skills{
-      width: 180px;
-      &-title{
-          font-family: 'Michroma';
-          font-weight: 400;
-          font-size: 16px;
-          text-decoration-line: underline;
-          color: #000000;
-          margin-bottom: 15px;
-      }
+    width: 180px;
+    &-title{
+      font-family: 'Michroma';
+      font-weight: 400;
+      font-size: 16px;
+      text-decoration-line: underline;
+      color: #000000;
+      margin-bottom: 15px;
+    }
       &-item {
           display: flex;
           flex-direction: row;

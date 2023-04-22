@@ -1,5 +1,5 @@
 body{
-  background-color:#cec7bd;
+  background: url('../images/bg/gray-paper-bg.png') center center/100% 100%;
 }
 .container1 {
 	width: 100%;
@@ -20,7 +20,7 @@ body{
    }
    &__blobdown {
     position: absolute;
-    bottom: 70px;
+    bottom: 95px;
     right: 0;
    }
   &__top {
